@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
   "parameters": {
     "logicAppFEname": {
-      "value": "VegangalLAWithPE123"
+      "value": "wwcontosola"
     },
     "appInsightName": {
-      "value": "VegangalLAWithPE123"
+      "value": "wwcontosoai"
     },
          "fileShareName": {
-      "value": "VegangalLAWithPE123"
+      "value": "wwcontosofs"
     },
     "location": {
       "value": "East US"
@@ -18,11 +18,11 @@
       "value": true
     },
     "hostingPlanFEName": {
-      "value": "LogicAppStandard23"
+      "value": "wwcontosohp"
     },
 
     "contentStorageAccountName": {
-      "value": "lav2withsecuredstorage"
+      "value": "wwcontososto"
     },
 
     "sku": {
@@ -41,10 +41,10 @@
       "value": "1"
     },
     "vnetName": {
-      "value": "LAV2VNET"
+      "value": "wwcontosovnet"
     },
     "subnetName": {
-      "value": "Subnet1"
+      "value": "wwcontososubnet1"
     },
 
     "virtualNetworkAddressPrefix": {

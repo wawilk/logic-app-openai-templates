@@ -3,15 +3,19 @@
     "contentVersion": "1.0.0.0",
   "parameters": {
     "logicAppFEname": {
+      "defaultValue": "wwcontosola",
       "type": "String"
     },
-        "fileShareName": {
+    "fileShareName": {
+      "defaultValue": "wwcontosofs",
       "type": "String"
     },
     "appInsightName": {
+      "defaultValue": "wwcontosoai",
       "type": "String"
     },
     "use32BitWorkerProcess": {
+      "defaultValue": false,
       "type": "Bool"
     },
     "location": {
@@ -27,25 +31,27 @@
     "contentStorageAccountName": {
       "type": "String"
     },
-
-
     "sku": {
       "type": "String"
     },
     "skuCode": {
+      "defaultValue": "WS1",
       "type": "String"
     },
     "workerSize": {
+      "defaultValue": "3",
       "type": "String"
     },
     "workerSizeId": {
+      "defaultValue": "3",
       "type": "String"
     },
     "numberOfWorkers": {
+      "defaultValue": "1",
       "type": "String"
     },
     "vnetName": {
-      "defaultValue": "VirtualNetwork",
+      "defaultValue": "wwcontosovnet",
       "type": "String",
       "metadata": {
         "description": "Name of the VNET that the Function App and Storage account will communicate over."
