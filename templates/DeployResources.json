@@ -492,7 +492,7 @@
             "location": "[parameters('location')]",
             "dependsOn": [
                 "[concat('Microsoft.Web/serverfarms/', parameters('hostingPlanFEName'))]",
-                "[concat('Microsoft.Insights/components', parameters('logicAppFEname'))]"
+                "[concat('Microsoft.Insights/components/', parameters('logicAppFEname'))]"
             ],
             "tags": {},
             "kind": "functionapp,workflowapp",
